@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+// import Select from './_component/select';
+import Select from './_component/select2';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Select />
       </header>
     </div>
   );
